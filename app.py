@@ -12,7 +12,6 @@ from agent import (
     analyze_patterns,
     analyze_prospect,
     analyze_segment_performance,
-    analyze_target_market,
     ask_about_call,
     ask_strategy_question,
     conduct_market_research,
@@ -23,7 +22,6 @@ from agent import (
     generate_refined_arguments,
     generate_sales_arguments,
     generate_strategy_feedback,
-    generate_target_markets,
     get_current_provider_info,
     prepare_for_call,
 )
@@ -454,105 +452,13 @@ Employees: {employees}"""
 def render_strategy_view() -> None:
     st.header("Strategy Consultant")
 
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
-        ["Target Market", "Market Research", "Feedback Loop", "Sales Arguments", "A/B Testing", "Strategy Chat"]
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(
+        ["Market Research", "Feedback Loop", "Sales Arguments", "A/B Testing", "Strategy Chat"]
     )
 
     all_calls = load_all_transcripts()
 
     with tab1:
-        st.subheader("Target Market Definition")
-
-        col_prod, col_geo = st.columns([2, 1])
-
-        with col_prod:
-            product = st.text_area(
-                "Product/Service Description",
-                placeholder="Describe what you're selling, key features, and value proposition...",
-                height=120,
-                key="tm_product",
-            )
-
-        with col_geo:
-            geography = st.selectbox(
-                "Geographic Focus",
-                [
-                    "Finland",
-                    "Southern Finland (Uusimaa, Helsinki region)",
-                    "Western Finland (Tampere, Turku region)",
-                    "Northern Finland (Oulu region)",
-                    "Eastern Finland",
-                    "Sweden",
-                    "Stockholm region",
-                    "Nordics (Finland, Sweden, Norway, Denmark)",
-                    "Baltics (Estonia, Latvia, Lithuania)",
-                    "DACH (Germany, Austria, Switzerland)",
-                    "Benelux",
-                    "UK & Ireland",
-                    "Europe",
-                    "Global",
-                ],
-                key="tm_geography",
-            )
-            st.session_state["selected_geography"] = geography
-
-        col1, col2 = st.columns(2)
-
-        with col1:
-            st.caption(f"AI-GENERATED TARGET MARKETS IN {geography.upper()}")
-            if st.button("Generate Target Markets", key="tm_generate"):
-                if product:
-                    with st.spinner(f"Analyzing product for {geography}..."):
-                        targets = generate_target_markets(product, geography)
-                        st.session_state["generated_targets"] = targets
-                else:
-                    st.warning("Please describe your product first.")
-
-            if "generated_targets" in st.session_state:
-                st.markdown(st.session_state["generated_targets"])
-
-        with col2:
-            st.caption("SELECT OR DEFINE TARGET MARKET")
-
-            target_options = [
-                "Custom (define below)",
-                "SMB Construction (10-100 employees)",
-                "Mid-market IT Services (50-500 employees)",
-                "Healthcare Clinics (5-50 employees)",
-                "Professional Services (20-200 employees)",
-                "Manufacturing SMB (25-250 employees)",
-            ]
-
-            selected_target = st.selectbox("Quick Select", target_options, key="tm_select")
-
-            if selected_target == "Custom (define below)":
-                custom_target = st.text_area(
-                    "Define Target Market",
-                    placeholder="e.g., Construction companies in Finland with 20-100 employees...",
-                    height=100,
-                    key="tm_custom",
-                )
-                target_market = custom_target
-            else:
-                target_market = selected_target
-
-            if target_market and target_market != "Custom (define below)":
-                st.session_state["selected_target_market"] = target_market
-
-                if st.button("Analyze This Market", key="tm_analyze"):
-                    if product:
-                        with st.spinner(f"Analyzing target market in {geography}..."):
-                            analysis = analyze_target_market(product, target_market, geography)
-                            st.session_state["target_market_analysis"] = analysis
-                    else:
-                        st.warning("Please describe your product first.")
-
-        if "target_market_analysis" in st.session_state:
-            st.divider()
-            st.caption("TARGET MARKET ANALYSIS")
-            st.markdown(st.session_state["target_market_analysis"])
-
-    with tab2:
         st.subheader("AI Market Research")
 
         col1, col2 = st.columns([2, 1])
@@ -637,7 +543,7 @@ def render_strategy_view() -> None:
             st.divider()
             st.markdown(st.session_state["market_research"])
 
-    with tab3:
+    with tab2:
         st.subheader("Feedback Loop - Learn from Calls")
 
         # Show segment performance from actual data
@@ -691,7 +597,7 @@ def render_strategy_view() -> None:
         if "refined_arguments" in st.session_state:
             st.markdown(st.session_state["refined_arguments"])
 
-    with tab4:
+    with tab3:
         st.subheader("Generate Sales Arguments")
 
         st.caption("CURRENT ARGUMENTS")
@@ -714,7 +620,7 @@ def render_strategy_view() -> None:
         else:
             st.info("Conduct market research first to generate customized arguments.")
 
-    with tab5:
+    with tab4:
         st.subheader("Pitch A/B Testing")
 
         col1, col2 = st.columns(2)
@@ -742,7 +648,7 @@ def render_strategy_view() -> None:
                 analysis = analyze_ab_test(all_calls)
             st.markdown(analysis)
 
-    with tab6:
+    with tab5:
         st.subheader("Strategy Assistant")
 
         context = st.text_area(
@@ -755,7 +661,7 @@ def render_strategy_view() -> None:
             "strategy_chat",
             ask_strategy_question,
             context=context,
-            placeholder="e.g., How should we position against Company X?",
+            placeholder="e.g., How should we position against Procountor?",
         )
 
 
