@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "id": "call-003",
+    "date": "2025-12-15",
+    "time": "11:15:33",
+    "duration_seconds": 156,
+    "campaign": "Taloushallinto Q1 2025",
+    "client": "FinanssiPro Oy",
+    "sdr": {
+      "id": "sdr-042",
+      "name": "Mikko Virtanen"
+    },
+    "prospect": {
+      "company": "DataTech Solutions Oy",
+      "contact_name": "Laura Heikkinen",
+      "title": "Talousjohtaja",
+      "phone": "+358 40 555 1234",
+      "industry": "IT-palvelut",
+      "employee_count": 65
+    },
+    "outcome": "callback_scheduled"
+  },
+  "transcript": [
+    {
+      "speaker": "sdr",
+      "timestamp": "00:00",
+      "text": "Hei, pääsisinkö puhumaan Laura Heikkisen kanssa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:04",
+      "text": "Heikkinen puhelimessa, kuinka voin auttaa?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:07",
+      "text": "Hei Laura, Mikko Virtanen FinanssiProsta. Autamme IT-alan yrityksiä tehostamaan taloushallintoa automaation avulla. Onko sinulla pari minuuttia?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:17",
+      "text": "Hmm, olen juuri menossa palaveriin. Mistä tässä on lyhyesti kyse?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:22",
+      "text": "Ymmärrän. Lyhyesti: tarjoamme ratkaisun, joka automatisoi laskutuksen ja antaa reaaliaikaisen näkymän kassavirtaan. Monet IT-alan yritykset ovat säästäneet 10-20 tuntia kuukaudessa."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:35",
+      "text": "Okei, kuulostaa mielenkiintoiselta. Meillä on tosiaan haasteita laskutuksen kanssa, kun projektit ovat eri vaiheissa."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:44",
+      "text": "Juuri tähän olemme erikoistuneet. Voisimmeko sopia lyhyen 20 minuutin Teams-palaverin, jossa käydään läpi miten voisimme auttaa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:53",
+      "text": "Periaatteessa kyllä, mutta nyt on todella huono hetki. Meillä on vuosineljänneksen sulku käynnissä."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:01",
+      "text": "Täysin ymmärrettävää. Milloin olisi parempi aika palata asiaan?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:06",
+      "text": "Soita uudestaan ensi viikon tiistaina, silloin pitäisi olla rauhallisempaa."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:12",
+      "text": "Selvä, soitan tiistaina. Mikä aika sopisi parhaiten?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:17",
+      "text": "Aamupäivä olisi paras, vaikka kymmeneltä."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:21",
+      "text": "Hienoa, soitan tiistaina kello 10. Kiitos Laura, ja onnea sulun kanssa!"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:27",
+      "text": "Kiitos, puhutaan silloin. Hei!"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:30",
+      "text": "Hei hei!"
+    }
+  ]
+}
+
+

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "id": "call-004",
+    "date": "2025-12-15",
+    "time": "13:45:12",
+    "duration_seconds": 67,
+    "campaign": "Taloushallinto Q1 2025",
+    "client": "FinanssiPro Oy",
+    "sdr": {
+      "id": "sdr-042",
+      "name": "Mikko Virtanen"
+    },
+    "prospect": {
+      "company": "Kuljetusliike Mäkinen Oy",
+      "contact_name": "Antti Mäkinen",
+      "title": "Toimitusjohtaja",
+      "phone": "+358 50 111 2222",
+      "industry": "Logistiikka",
+      "employee_count": 38
+    },
+    "outcome": "gatekeeper_block"
+  },
+  "transcript": [
+    {
+      "speaker": "sdr",
+      "timestamp": "00:00",
+      "text": "Hei, pääsisinkö puhumaan Antti Mäkisen kanssa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:04",
+      "text": "Hetkinen, kuka soittaa ja mistä asiasta?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:08",
+      "text": "Mikko Virtanen FinanssiProsta. Soitan taloushallinnon tehostamiseen liittyen."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:14",
+      "text": "Onko tämä myyntipuhelu?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:17",
+      "text": "Haluaisin keskustella lyhyesti siitä, miten voisimme auttaa teitä säästämään aikaa laskutuksessa."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:24",
+      "text": "Antti on palaverissa eikä ota myyntipuheluita. Voitte lähettää sähköpostia info-osoitteeseen."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:32",
+      "text": "Ymmärrän. Mikä olisi paras aika tavoittaa Antti suoraan?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:37",
+      "text": "Hän on todella kiireinen. Lähettäkää sähköposti niin hän ottaa yhteyttä jos kiinnostaa."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:44",
+      "text": "Selvä, voisitteko kertoa suoran sähköpostiosoitteen?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:48",
+      "text": "Käyttäkää vain info@kuljetusliikemakinen.fi. Hyvää päivänjatkoa."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:54",
+      "text": "Kiitos, hyvää päivänjatkoa!"
+    }
+  ]
+}
+
+

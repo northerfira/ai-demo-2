@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "id": "call-001",
+    "date": "2025-12-15",
+    "time": "10:34:22",
+    "duration_seconds": 247,
+    "campaign": "Taloushallinto Q1 2025",
+    "client": "FinanssiPro Oy",
+    "sdr": {
+      "id": "sdr-042",
+      "name": "Mikko Virtanen"
+    },
+    "prospect": {
+      "company": "Rakennusliike Korhonen Oy",
+      "contact_name": "Jari Korhonen",
+      "title": "Toimitusjohtaja",
+      "phone": "+358 40 123 4567",
+      "industry": "Rakennusala",
+      "employee_count": 45
+    },
+    "outcome": "meeting_booked",
+    "meeting_details": {
+      "date": "2025-12-19",
+      "time": "14:00",
+      "type": "teams",
+      "attendees": ["Jari Korhonen", "Anna Mäkinen (FinanssiPro)"]
+    }
+  },
+  "transcript": [
+    {
+      "speaker": "sdr",
+      "timestamp": "00:00",
+      "text": "Hei, onko Jari Korhonen tavoitettavissa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:03",
+      "text": "Joo, Korhonen puhelimessa."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:05",
+      "text": "Hei Jari, täällä Mikko Virtanen FinanssiProsta. Soitan lyhyesti, koska autamme rakennusalan yrityksiä tehostamaan taloushallintoa ja vapauttamaan aikaa ydintoimintaan. Onko teillä muutama minuutti aikaa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:18",
+      "text": "No joo, mutta oon aika kiireinen. Mistä tässä on kyse?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:22",
+      "text": "Ymmärrän täysin, menen suoraan asiaan. Olemme huomanneet, että moni samankokoinen rakennusalan yritys käyttää kuukausittain kymmeniä tunteja laskutukseen ja kirjanpitoon. Miten teillä taloushallinto on tällä hetkellä järjestetty?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:38",
+      "text": "Meillä on yksi henkilö joka hoitaa sitä osa-aikaisesti, ja sitten tilitoimisto tekee loput. Mutta rehellisesti sanottuna se on vähän sekavaa välillä."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:49",
+      "text": "Kuulostaako tutulta, että laskujen käsittely vie aikaa, ja välillä jää epäselväksi mikä on jo maksettu ja mikä ei?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:56",
+      "text": "Joo, kyllä se tunnistettava tilanne on. Varsinkin kun projekteja on monta päällekkäin, niin seuranta on hankalaa."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:04",
+      "text": "Juuri tähän me olemme erikoistuneet. Meillä on kokonaisratkaisu, joka automatisoi laskutuksen ja antaa reaaliaikaisen näkymän kassavirtaan. Eräs asiakas samalta alalta, Rakennus Mäkelä, vähensi hallintoon käytettyä aikaa 60 prosenttia."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:20",
+      "text": "Kuulostaa hyvältä periaatteessa, mutta meillä on nyt paljon menossa. Voitko lähettää sähköpostia?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:27",
+      "text": "Totta kai voin lähettää, mutta kokemus on osoittanut, että lyhyt 20 minuutin Teams-palaveri antaa paljon paremman kuvan kuin sähköposti. Siinä voimme käydä läpi juuri teidän tilanteeseen sopivia ratkaisuja. Miten ensi viikko näyttäisi kalenterissa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:43",
+      "text": "Hmm, no ensi viikko on kyllä tukossa. Mites torstai?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:48",
+      "text": "Torstai sopii hyvin. Sopiiko iltapäivä, vaikka kello 14?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:53",
+      "text": "Joo, kello 14 vois toimia. Laita kalenterikutsu tulemaan."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:58",
+      "text": "Erinomaista! Laitan kutsun jari.korhonen@rakennusliike-korhonen.fi -osoitteeseen. Palaverissa on mukana myös asiantuntijamme Anna Mäkinen, joka tuntee rakennusalan erityistarpeet. Kuulostaako hyvältä?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "02:12",
+      "text": "Joo, käy. Se sähköposti on oikein."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "02:15",
+      "text": "Hienoa Jari, kiitos ajastasi. Nähdään torstaina kello 14. Mukavaa päivänjatkoa!"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "02:21",
+      "text": "Kiitos, samoin. Hei hei."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "02:23",
+      "text": "Hei!"
+    }
+  ]
+}

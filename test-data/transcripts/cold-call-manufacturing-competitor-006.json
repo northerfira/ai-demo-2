@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "id": "call-006",
+    "date": "2025-12-15",
+    "time": "09:22:18",
+    "duration_seconds": 134,
+    "campaign": "Taloushallinto Q1 2025",
+    "client": "FinanssiPro Oy",
+    "sdr": {
+      "id": "sdr-042",
+      "name": "Mikko Virtanen"
+    },
+    "prospect": {
+      "company": "Metallirakenne Oy",
+      "contact_name": "Markku Laine",
+      "title": "Talousjohtaja",
+      "phone": "+358 40 777 8888",
+      "industry": "Valmistava teollisuus",
+      "employee_count": 89
+    },
+    "outcome": "has_competitor"
+  },
+  "transcript": [
+    {
+      "speaker": "sdr",
+      "timestamp": "00:00",
+      "text": "Hei, tavoittelisin Markku Lainetta."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:03",
+      "text": "Laine kuuntelee."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:05",
+      "text": "Hei Markku, Mikko Virtanen FinanssiProsta. Autamme teollisuusyrityksiä tehostamaan taloushallintoa automaation avulla. Sopiiko hetki?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:14",
+      "text": "Joo, muutama minuutti on. Mitä tarjoatte?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:18",
+      "text": "Meillä on kokonaisratkaisu laskutukseen ja kirjanpitoon. Reaaliaikainen kassavirta ja automaattinen laskutus. Miten teillä on taloushallinto järjestetty?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:30",
+      "text": "Meillä on Procountor käytössä, otettiin se pari vuotta sitten."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:36",
+      "text": "Procountor on hyvä järjestelmä. Oletteko tyytyväisiä siihen?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:41",
+      "text": "Kyllä, se toimii meillä hyvin. Integroituu tuotannonohjaukseenkin."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:47",
+      "text": "Hyvä kuulla. Onko jotain mitä toivoisitte toimivan paremmin?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:53",
+      "text": "Ei oikeastaan. Alkuvaiheessa oli haasteita, mutta nyt kaikki rullaa hyvin."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:00",
+      "text": "Ymmärrän. Jos tilanne joskus muuttuu, meillä on erityisesti teollisuusyrityksille suunniteltuja ratkaisuja."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:08",
+      "text": "Selvä, mutta en usko että olemme vaihtamassa lähiaikoina. Iso projekti olisi."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:15",
+      "text": "Täysin ymmärrettävää. Saanko olla yhteydessä vuoden päästä kun sopimus tulee uusittavaksi?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:23",
+      "text": "Ei tarvitse, otan itse yhteyttä jos tulee tarvetta. Kiitos kuitenkin."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:29",
+      "text": "Selvä, kiitos ajastasi Markku. Hyvää päivänjatkoa!"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:33",
+      "text": "Kiitos samoin, hei."
+    }
+  ]
+}
+
+

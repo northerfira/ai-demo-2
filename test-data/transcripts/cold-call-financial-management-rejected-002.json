@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "id": "call-002",
+    "date": "2025-12-15",
+    "time": "14:22:45",
+    "duration_seconds": 98,
+    "campaign": "Taloushallinto Q1 2025",
+    "client": "FinanssiPro Oy",
+    "sdr": {
+      "id": "sdr-042",
+      "name": "Mikko Virtanen"
+    },
+    "prospect": {
+      "company": "Sähköpalvelu Nieminen Oy",
+      "contact_name": "Pekka Nieminen",
+      "title": "Toimitusjohtaja",
+      "phone": "+358 50 987 6543",
+      "industry": "Sähköala",
+      "employee_count": 22
+    },
+    "outcome": "rejected"
+  },
+  "transcript": [
+    {
+      "speaker": "sdr",
+      "timestamp": "00:00",
+      "text": "Hei, onko Pekka Nieminen tavoitettavissa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:03",
+      "text": "Joo, Nieminen täällä. Kuka soittaa?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:06",
+      "text": "Hei Pekka, täällä Mikko Virtanen FinanssiProsta. Soitan lyhyesti, koska autamme pk-yrityksiä tehostamaan taloushallintoa. Onko teillä hetki aikaa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:15",
+      "text": "Ei oikeastaan, oon just menossa asiakkaalle. Mistä tässä on kyse?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:20",
+      "text": "Ymmärrän. Lyhyesti sanottuna autamme yrityksiä automatisoimaan laskutusta ja kirjanpitoa. Moni sähköalan yrittäjä on säästänyt kymmeniä tunteja kuukaudessa."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:32",
+      "text": "Meillä on tilitoimisto joka hoitaa nuo. Toimii ihan hyvin."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:37",
+      "text": "Hyvä kuulla. Mutta onko teillä reaaliaikainen näkymä kassavirtaan ja laskutukseen?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:43",
+      "text": "Kuule, ei mua kiinnosta tällaiset. Meidän systeemi toimii ja en halua vaihtaa mitään. Soittakaa jonnekin muualle."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:51",
+      "text": "Ymmärrän. Voisinko lähettää sähköpostitse lisätietoa, jos tilanne joskus muuttuu?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:57",
+      "text": "Ei kiitos, ei tarvitse. Hyvää päivänjatkoa."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:01",
+      "text": "Selvä, kiitos ajastasi. Mukavaa päivänjatkoa!"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:04",
+      "text": "Joo, hei."
+    }
+  ]
+}
+
+

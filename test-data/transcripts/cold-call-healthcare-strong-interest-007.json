@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "id": "call-007",
+    "date": "2025-12-15",
+    "time": "10:05:22",
+    "duration_seconds": 312,
+    "campaign": "Taloushallinto Q1 2025",
+    "client": "FinanssiPro Oy",
+    "sdr": {
+      "id": "sdr-042",
+      "name": "Mikko Virtanen"
+    },
+    "prospect": {
+      "company": "Hammaslääkäriasema Hymy Oy",
+      "contact_name": "Tiina Järvinen",
+      "title": "Toimitusjohtaja",
+      "phone": "+358 50 999 0000",
+      "industry": "Terveydenhuolto",
+      "employee_count": 28
+    },
+    "outcome": "meeting_booked",
+    "meeting_details": {
+      "date": "2025-12-18",
+      "time": "09:00",
+      "type": "teams",
+      "attendees": ["Tiina Järvinen", "Mika Koivisto (Talousvastaava)", "Anna Mäkinen (FinanssiPro)"]
+    }
+  },
+  "transcript": [
+    {
+      "speaker": "sdr",
+      "timestamp": "00:00",
+      "text": "Hei, onko Tiina Järvinen tavoitettavissa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:04",
+      "text": "Kyllä, Järvinen täällä. Mistä soitat?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:07",
+      "text": "Hei Tiina, Mikko Virtanen FinanssiProsta. Autamme terveydenhuoltoalan yrityksiä tehostamaan taloushallintoa. Onko sinulla hetki aikaa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:16",
+      "text": "Joo, on tässä aikaa. Kerro lisää, meillä on juuri nyt taloushallinto aika sekaisin."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:24",
+      "text": "Mielenkiintoista kuulla. Voitko kertoa lisää, mikä on sekaisin?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:30",
+      "text": "No, meillä on monta eri järjestelmää. Ajanvaraus, potilastietojärjestelmä, laskutus erikseen. Ja sitten tilitoimisto tekee kirjanpidon. Kukaan ei tiedä tarkkaan mikä on kassatilanne."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:47",
+      "text": "Kuulostaa tutulta tilanteelta. Moni terveydenhuoltoalan yritys kamppailee saman kanssa. Kuinka paljon aikaa kuluu laskutuksen ja eri järjestelmien väliseen työhön?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:00",
+      "text": "Talousvastaavamme Mika käyttää siihen varmaan 15 tuntia viikossa. Ja silti tulee virheitä ja myöhässä lähetettyjä laskuja."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:12",
+      "text": "15 tuntia on paljon. Meidän ratkaisu integroi eri järjestelmät ja automatisoi laskutuksen. Eräs asiakkaamme terveysalalta vähensi vastaavan työn alle 5 tuntiin viikossa."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:27",
+      "text": "Vau, se olisi iso parannus. Miten se käytännössä toimii?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:33",
+      "text": "Käytännössä järjestelmämme hakee tiedot ajanvarauksesta ja luo laskut automaattisesti. Saat reaaliaikaisen näkymän kassavirtaan ilman manuaalista työtä."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:47",
+      "text": "Kuulostaa juuri siltä mitä tarvitsemme. Onko teillä kokemusta hammaslääkäriasemista?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:54",
+      "text": "Kyllä, meillä on useita hammaslääkäriasemia asiakkaina. Tunnemme alan erityispiirteet kuten Kela-korvaukset ja vakuutuslaskutuksen."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "02:05",
+      "text": "Hyvä. Miten etenemme?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "02:08",
+      "text": "Ehdotan 30 minuutin Teams-palaveria, jossa asiantuntijamme Anna Mäkinen käy läpi ratkaisumme tarkemmin. Mukaan kannattaisi ottaa myös Mika, joka tuntee käytännön haasteet."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "02:22",
+      "text": "Hyvä idea. Milloin olisi mahdollista?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "02:26",
+      "text": "Miten keskiviikko näyttäisi, vaikka aamulla kello 9?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "02:31",
+      "text": "Keskiviikko kello 9 sopii. Kysyn Mikalta ja varmistan."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "02:37",
+      "text": "Erinomaista! Lähetän kalenterikutsun osoitteeseen tiina.jarvinen@hammaslaakari-hymy.fi. Lisään kutsuun myös Mikan, jos saan hänen sähköpostinsa."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "02:49",
+      "text": "Mikan osoite on mika.koivisto@hammaslaakari-hymy.fi."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "02:55",
+      "text": "Kiitos! Lähetän kutsut ja valmistelen esityksen teidän tilanteeseenne. Nähdään keskiviikkona!"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "03:03",
+      "text": "Kiitos Mikko, odotan mielenkiinnolla. Hei hei!"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "03:07",
+      "text": "Kiitos Tiina, hei!"
+    }
+  ]
+}
+
+

@@ -1,0 +1,11 @@
+# Core
+streamlit>=1.40.0
+
+# LangChain
+langchain>=0.3.0
+
+# LLM Providers
+langchain-openai>=0.2.0
+langchain-anthropic>=0.3.0
+langchain-ollama>=0.2.0
+

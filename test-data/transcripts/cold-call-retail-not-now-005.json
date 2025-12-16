@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "id": "call-005",
+    "date": "2025-12-15",
+    "time": "15:30:45",
+    "duration_seconds": 185,
+    "campaign": "Taloushallinto Q1 2025",
+    "client": "FinanssiPro Oy",
+    "sdr": {
+      "id": "sdr-042",
+      "name": "Mikko Virtanen"
+    },
+    "prospect": {
+      "company": "Vaatekauppa Turunen Oy",
+      "contact_name": "Sanna Turunen",
+      "title": "Yrittäjä",
+      "phone": "+358 44 333 4444",
+      "industry": "Vähittäiskauppa",
+      "employee_count": 12
+    },
+    "outcome": "not_interested_timing"
+  },
+  "transcript": [
+    {
+      "speaker": "sdr",
+      "timestamp": "00:00",
+      "text": "Hei, onko Sanna Turunen paikalla?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:03",
+      "text": "Joo, täällä Sanna. Mistä soitat?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:06",
+      "text": "Hei Sanna, Mikko Virtanen FinanssiProsta. Autamme vähittäiskaupan yrityksiä tehostamaan taloushallintoa. Onko hetki aikaa?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:15",
+      "text": "No, on tässä vähän aikaa. Mitä tarjoatte?"
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:19",
+      "text": "Meillä on ratkaisu, joka automatisoi laskutuksen ja kirjanpidon. Miten teillä on taloushallinto tällä hetkellä järjestetty?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:28",
+      "text": "Teen itse kirjanpidon ja laskutuksen. Se vie aikaa, mutta hallitsen sen itse."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:35",
+      "text": "Ymmärrän. Monet yrittäjät kokevat, että se vie aikaa pois varsinaisesta liiketoiminnasta. Kuinka monta tuntia viikossa käytät taloushallintoon?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "00:46",
+      "text": "Ehkä 5-6 tuntia viikossa. Mutta tiedän mitä teen ja luotan omaan systeemiini."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "00:54",
+      "text": "Se on melko paljon. Ratkaisumme voisi puolittaa tuon ajan ja antaa reaaliaikaisen näkymän kassavirtaan."
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:03",
+      "text": "Kuulostaa ihan hyvältä, mutta rehellisesti sanottuna joulusesonki on juuri alkamassa. Tämä on meidän kiireisin aika."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:12",
+      "text": "Täysin ymmärrettävää. Entä jos palaisimme asiaan tammikuussa sesongin jälkeen?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:19",
+      "text": "En oikeastaan halua sitoutua mihinkään. Jos kiinnostaa myöhemmin, otan itse yhteyttä."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:27",
+      "text": "Selvä. Voinko lähettää sähköpostitse lyhyen esitteen, jos tilanne muuttuu?"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:33",
+      "text": "Voit lähettää, sähköposti on sanna@vaatekauppa-turunen.fi. Mutta en lupaa mitään."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:41",
+      "text": "Kiitos Sanna, lähetän materiaalin. Toivotan hyvää joulusesonkia!"
+    },
+    {
+      "speaker": "prospect",
+      "timestamp": "01:47",
+      "text": "Kiitos samoin, hei hei."
+    },
+    {
+      "speaker": "sdr",
+      "timestamp": "01:50",
+      "text": "Hei!"
+    }
+  ]
+}
+
+
