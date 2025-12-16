@@ -672,7 +672,7 @@ def render_strategy_view() -> None:
             "strategy_chat",
             ask_strategy_question,
             context=context,
-            placeholder="e.g., How should we position against Procountor?",
+            placeholder="e.g., How should we position against Company X?",
         )
 
 
