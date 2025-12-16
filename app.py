@@ -469,7 +469,6 @@ def render_strategy_view() -> None:
                 placeholder="Describe what you're selling...",
                 height=100,
                 key="mr_product",
-                value=st.session_state.get("tm_product", ""),
             )
 
         with col2:
@@ -492,26 +491,12 @@ def render_strategy_view() -> None:
                     "Global",
                 ],
                 key="mr_geography",
-                index=0 if "selected_geography" not in st.session_state else [
-                    "Finland", "Southern Finland (Uusimaa, Helsinki region)", 
-                    "Western Finland (Tampere, Turku region)", "Northern Finland (Oulu region)",
-                    "Eastern Finland", "Sweden", "Stockholm region",
-                    "Nordics (Finland, Sweden, Norway, Denmark)", "Baltics (Estonia, Latvia, Lithuania)",
-                    "DACH (Germany, Austria, Switzerland)", "Benelux", "UK & Ireland", "Europe", "Global"
-                ].index(st.session_state.get("selected_geography", "Finland")) if st.session_state.get("selected_geography", "Finland") in [
-                    "Finland", "Southern Finland (Uusimaa, Helsinki region)", 
-                    "Western Finland (Tampere, Turku region)", "Northern Finland (Oulu region)",
-                    "Eastern Finland", "Sweden", "Stockholm region",
-                    "Nordics (Finland, Sweden, Norway, Denmark)", "Baltics (Estonia, Latvia, Lithuania)",
-                    "DACH (Germany, Austria, Switzerland)", "Benelux", "UK & Ireland", "Europe", "Global"
-                ] else 0,
             )
 
         target_market_research = st.text_input(
             "Target Market",
-            placeholder="e.g., Construction SMBs",
+            placeholder="e.g., Construction SMBs, IT Services 50-500 employees",
             key="mr_target",
-            value=st.session_state.get("selected_target_market", ""),
         )
 
         focus = st.selectbox(
@@ -526,6 +511,7 @@ def render_strategy_view() -> None:
                 "Local Partnerships",
                 "Regulatory & Compliance",
             ],
+            key="mr_focus",
         )
 
         if st.button("Conduct Research", key="strategy_research"):
@@ -535,7 +521,10 @@ def render_strategy_view() -> None:
                         product_research, target_market_research, geography_research, focus
                     )
                     st.session_state["market_research"] = research
-                st.markdown(research)
+                    # Store inputs for use in Sales Arguments tab
+                    st.session_state["mr_product_saved"] = product_research
+                    st.session_state["mr_target_saved"] = target_market_research
+                st.rerun()
             else:
                 st.warning("Please fill in product description and target market.")
 
@@ -598,27 +587,49 @@ def render_strategy_view() -> None:
             st.markdown(st.session_state["refined_arguments"])
 
     with tab3:
-        st.subheader("Generate Sales Arguments")
+        st.subheader("Sales Arguments")
 
-        st.caption("CURRENT ARGUMENTS")
-        st.markdown(SALES_ARGUMENTS)
+        col_current, col_generate = st.columns(2)
 
-        st.divider()
+        with col_current:
+            st.caption("CURRENT ARGUMENTS")
+            st.markdown(SALES_ARGUMENTS)
 
-        if "market_research" in st.session_state:
-            segment = st.text_input("Target Segment", placeholder="e.g., CFOs in construction companies")
-            tone = st.selectbox("Tone", ["Professional", "Conversational", "Urgent", "Consultative"])
+        with col_generate:
+            st.caption("GENERATE NEW ARGUMENTS")
+
+            # Show if market research is available
+            has_research = "market_research" in st.session_state
+            if has_research:
+                st.success("✓ Market research available - will be used for context")
+            
+            segment = st.text_input(
+                "Target Segment",
+                placeholder="e.g., CFOs in construction companies",
+                value=st.session_state.get("mr_target_saved", ""),
+                key="sa_segment",
+            )
+            tone = st.selectbox(
+                "Tone",
+                ["Professional", "Conversational", "Urgent", "Consultative"],
+                key="sa_tone",
+            )
 
             if st.button("Generate New Arguments", key="strategy_gen_args"):
-                with st.spinner("Generating arguments..."):
-                    new_args = generate_sales_arguments(
-                        st.session_state["market_research"],
-                        segment,
-                        tone,
-                    )
-                st.markdown(new_args)
-        else:
-            st.info("Conduct market research first to generate customized arguments.")
+                if segment:
+                    with st.spinner("Generating arguments..."):
+                        # Use market research if available, otherwise use segment as context
+                        context = st.session_state.get("market_research", f"Target segment: {segment}")
+                        new_args = generate_sales_arguments(context, segment, tone)
+                        st.session_state["generated_arguments"] = new_args
+                    st.rerun()
+                else:
+                    st.warning("Please specify a target segment.")
+
+            if "generated_arguments" in st.session_state:
+                st.divider()
+                st.caption("GENERATED ARGUMENTS")
+                st.markdown(st.session_state["generated_arguments"])
 
     with tab4:
         st.subheader("Pitch A/B Testing")
